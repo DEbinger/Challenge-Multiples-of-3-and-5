@@ -11,5 +11,5 @@ exports.sumOfAMultiple = function( n ) {
 	    	sum += i;
 	  		}
 	}
- 		return sum;
+ 		return sum; //fixes to commit to close #2
 };
