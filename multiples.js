@@ -4,12 +4,12 @@
  * @return {Number}
  */
 exports.sumOfAMultiple = function( n ) {
-  var sum = 0;
-  var result = [];		  	
-	for(var i = 1; i < n; i++) {
-  	if(i % 3 === 0 || i % 5 === 0) {
-    sum += i;
-  }
-}
- return sum;
+	let sum = 0;
+	let result = [];		  	
+		for(let i = 1; i < n; i++) {
+	  		if(i % 3 === 0 || i % 5 === 0) {
+	    	sum += i;
+	  		}
+	}
+ 		return sum;
 };
